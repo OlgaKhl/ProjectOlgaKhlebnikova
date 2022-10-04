@@ -3,6 +3,7 @@ package lesson2;
 public class TestMethods {
 
     public static void main(String[] args) {
+
         System.out.println(isSumBetween10and20(12, 86));
         printPositiveOrNegativeNum(-15);
         System.out.println(isNegative(-100));
@@ -38,6 +39,7 @@ public class TestMethods {
     }
 
     public static void printString(String hello, int count) {
+
         for (int i = 0; i < count; i++) {
             System.out.println(hello);
         }
